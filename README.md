@@ -1,3 +1,3 @@
 # c3t-app
 
-Application for  👟 sneakers e-commerce website.
+Application for  👟 sneakers shop
