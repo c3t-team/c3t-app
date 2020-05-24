@@ -1,0 +1,17 @@
+.fill-button-detail {
+  background-color: #d9a128;
+  border-radius: 5px;
+  padding: 8px 20px;
+  color: #f5f5f5;
+  border: none;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .fill-button-detail {
+   width: 100% !important;
+   margin-left: 0 !important;
+  }
+}
