@@ -1,0 +1,4 @@
+.amount:hover{
+    background-color: brown !important;
+    cursor: pointer;
+}
