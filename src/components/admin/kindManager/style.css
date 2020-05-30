@@ -1,0 +1,39 @@
+.outline-button {
+  margin-bottom: 20px;
+  border: 1px solid #d9a128 !important;
+  border-radius: 5px;
+  padding: 8px 20px;
+  background-color: #f5f5f5;
+  margin-right: 5px;
+}
+.fill-button{
+  background-color: #d9a128;
+  border-radius: 5px;
+  padding: 8px 20px;
+  color: #f5f5f5;
+  border: none;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 5px;
+
+}
+.red-button{
+  background-color: #9d0b0b;
+  border-radius: 5px;
+  padding: 8px 20px;
+  color: #f5f5f5;
+  border: none;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.cancel-search {
+ 
+  border: 1px solid #d9a128 !important;
+  border-radius: 5px;
+  padding: 8px 20px;
+  background-color: #f5f5f5;
+  margin-left: 10px;
+  height: 100%;
+}
