@@ -1,0 +1,19 @@
+.btn{
+    background-color: #F75F00 !important;
+    border: none !important;
+
+}
+.btn:hover{
+    background-color: #fb9224 !important;
+    cursor: pointer;
+}
+.btn-delete {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+}
+.img-product {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
