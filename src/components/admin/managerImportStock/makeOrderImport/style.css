@@ -1,0 +1,14 @@
+.applyAll{
+    background-color: khaki;
+    padding: 15px !important;
+
+}
+.input-apply{
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 10px !important;
+
+}
