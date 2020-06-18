@@ -1,0 +1,23 @@
+.MuiPaper-elevation4 {
+  box-shadow: none !important;
+}
+
+.MuiToolbar-root {
+  /* margin-bottom: 30px !important; */
+  padding-bottom: 25px;
+  padding-top: 15px;
+}
+.MuiAppBar-colorPrimary {
+  color: #fff;
+  background-color: white !important;
+}
+.MuiTableCell-paddingCheckbox{
+  display: none !important
+}
+.MuiTableCell-paddingCheckbox{
+  box-shadow: none !important;
+}
+
+.MuiTable-root {
+  background-color: white !important;
+}
