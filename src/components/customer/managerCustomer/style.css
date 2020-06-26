@@ -1,0 +1,11 @@
+.action-hover:hover{
+    color: #D9A128;
+    cursor: pointer;
+
+}
+
+@media (max-width: 768px) {
+    .navabar-customer{
+        display: none;
+    }
+}
