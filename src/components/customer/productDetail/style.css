@@ -1,0 +1,81 @@
+.container {
+  background-color: white !important;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.money {
+  color: #f75f00;
+  font-size: 25px;
+  font-weight: 600;
+}
+.rate-own {
+  display: flex;
+  justify-items: center;
+}
+.color {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.buy {
+  margin-top: 50px;
+}
+
+.quanlity {
+  margin-top: 20px;
+}
+.dive {
+  width: 60%;
+  height: 3px;
+  background-color: #f75f00;
+  margin-bottom: 10px;
+}
+
+.size {
+  display: flex;
+  align-items: center;
+}
+.demo-wrapper {
+  border: none !important;
+}
+
+.demo-toolbar-absolute {
+  border: none !important;
+}
+
+.demo-editor {
+  border: none !important;
+}
+
+.detail .rdw-editor-main {
+  overflow: hidden !important;
+}
+.detail .rdw-editor-toolbar {
+  height: 0px !important;
+}
+
+.choose-button {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 8px 20px;
+  background-color: #da2d2d;
+  color: #f9f9f9;
+  margin-right: 5px;
+}
+
+.buy-product {
+  color: white;
+}
+.buy-product:hover {
+  text-decoration: none !important;
+  color: white;
+}
+
+.rdw-editor-main {
+  margin-left: 2% !important;
+}

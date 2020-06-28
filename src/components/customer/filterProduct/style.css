@@ -1,0 +1,32 @@
+.filter-contaner {
+  background-color: rgba(90, 61, 108,0.2);
+  box-shadow: 5px -30px 60px rgba(0, 0, 0, 0.1);
+}
+
+.filter-tile {
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  height: 60px;
+  background-color: #e3b04b;
+  color: wheat;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.divide {
+  width: 100% !important;
+  height: 1px;
+  background-color: #fdecff !important;
+  margin-top: 5px;
+}
+
+.content{
+  color:#5E3D6E;
+  font-weight: 700;
+}
+
+.PrivateValueLabel-circle-291{
+  width: 40px !important;
+  height:  40px !important;
+}

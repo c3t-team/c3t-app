@@ -1,0 +1,32 @@
+label + .MuiInput-formControl {
+    margin-top: 30px !important;   
+}
+
+.change-infor:hover{
+    cursor: pointer;
+    color: #000000;
+}
+
+.change-infor{
+    margin: 0;
+    align-self: flex-end;
+    font-size: 15px;
+    color: #d9a128;
+    font-weight: 500;
+    text-decoration: underline
+}
+
+@media (max-width: 768px) {
+    .upload-img{
+        display: none;
+    }
+    .container-profile{
+        margin-left: 10px !important;   
+    }
+}
+.container-profile{
+    margin-left: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+}

@@ -1,0 +1,33 @@
+.MuiTab-textColorPrimary.Mui-selected{
+    color:#512c62 !important    
+}
+.link{
+    text-decoration: none !important;
+    color: wheat
+}
+.menu-admin {
+    list-style: none !important;
+    margin-top: 5px ;
+    /* display: block; */
+    /* position: relative; */
+}
+.person:hover > .menu-admin{
+    display: block;
+    z-index: 100;
+    height: 200px;
+    background-color: tomato;
+} 
+.person{
+    position: relative;
+}
+
+.person:hover{
+    cursor: pointer;
+}
+.menu-admin li:hover {
+    cursor: pointer;
+    color: #512c62;
+}
+.logout:hover{
+    cursor: pointer;
+}

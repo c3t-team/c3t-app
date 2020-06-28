@@ -1,0 +1,28 @@
+.imgProduct{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.demo-editor{
+    
+    border: 1px solid rgb(201, 197, 197) !important;
+    padding: 5px !important;
+    border-radius: 2px !important;
+   
+}
+.format-input{
+    border: none;
+    width: 100px;
+    height: 50px;
+
+}
+.input-name-show{
+    border: none;
+    width: 400px;
+    height: 50px;
+}
+
+input{
+    border: none;
+}

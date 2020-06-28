@@ -1,0 +1,16 @@
+.info-customer {
+  width: 50%;
+  margin-left: 30px;
+}
+h6 {
+  font-weight: 550 !important;
+}
+/* 
+input:invalid {
+  background: #f0decb;
+} */
+
+/* 
+input:valid {
+  background: hsla(100, 90%, 70%, 1);
+} */

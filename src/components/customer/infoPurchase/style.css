@@ -1,0 +1,20 @@
+.divid {
+  width: 10%;
+  height: 4px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  background-color: #2a1a5e;
+}
+
+@media (max-width: 768px) {
+  .container-purchase {
+    margin-top: 100px !important;
+    padding-left:  20px;
+    padding-right: 20px;
+  }
+}
+
+.container-purchase {
+  margin-top: 180px;
+  width: 100%;
+}

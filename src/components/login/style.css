@@ -1,0 +1,93 @@
+.login-form {
+  width: 30%;
+}
+.container-login {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.title-login {
+  color: #f75f00;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a,
+    0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222,
+    0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a,
+    0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212,
+    0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+.forget-pass:hover {
+  cursor: pointer;
+  color: red;
+}
+.forget-pass {
+  font-weight: 600;
+  font-size: 12px !important;
+  text-decoration: underline;
+}
+
+.background {
+  background-image: url("../../assets/image/backgroundLogin.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: 100%;
+  opacity: 0.85;
+  position: relative;
+  z-index: -10;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .background {
+    display: none !important;
+  }
+  .conatiner-info {
+    position: static;
+    right: 5px !important;
+  }
+  .chua-co-tai-khoan {
+    color: #000000 !important;
+  }
+  .forget-container {
+    color: #000000 !important;
+  }
+  .remember {
+    color: #000000 !important;
+  }
+}
+.MuiInput-underline:after {
+  border-bottom-color: #f75f00 !important;
+}
+.MuiOutlinedInput-root {
+  border-bottom-color: #fff !important;
+}
+
+.registry:hover {
+  color: #f75f00;
+  cursor: pointer;
+}
+
+.conatiner-info {
+  position: absolute;
+  z-index: 100;
+  top: 10%;
+  right: 10%;
+}
+
+.chua-co-tai-khoan {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 12px;
+}
+.forget-container {
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+}
+.remember {
+  color: #fff;
+}
