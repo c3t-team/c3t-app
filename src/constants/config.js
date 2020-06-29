@@ -1,1 +1,1 @@
-export const API_URL = "http://localhost:1337/api/v1"
+export const API_URL = "https://c3tshopapi.herokuapp.com/api/v1"
