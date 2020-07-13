@@ -33,8 +33,8 @@ const useStyles = makeStyles(theme => ({
     width: "200px"
   },
   paddingLabel: {
-    paddingBottom: "10px",
-    color: "#fff"
+    color: "#fff",
+    top:"-15px"
   },
   notchedOutline: {
     borderWidth: "1px",
@@ -139,7 +139,7 @@ function Login(props) {
                     setMessageEmail("email không hợp lệ");
                   }
                 }}
-                style={{ color: "#fff" }}
+                style={{ color: "#000", backgroundColor:'#fff' }}
               />
               <label style={{ color: "#F75F00", fontSize: "14px" }}>
                 <i>{messageEmail}</i>
@@ -160,7 +160,7 @@ function Login(props) {
                 value={values.password}
                 name="password"
                 onChange={handleChange("password")}
-                style={{ color: "#fff" }}
+                style={{ color: "#000", backgroundColor:'#fff' }}
                 className={classes.width400}
                 endAdornment={
                   <InputAdornment position="end">

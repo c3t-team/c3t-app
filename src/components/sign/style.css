@@ -42,8 +42,10 @@
 }
 
 .paddingLabel {
-  padding-bottom: 10px;
-  color: #fff;
+  top: 8px !important;
+  color: #fff !important;
 }
 
-
+.wrap-sign{
+  height: calc(100vh - 20px);
+}

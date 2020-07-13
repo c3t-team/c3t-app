@@ -150,8 +150,8 @@ function Sign(props) {
     return true;
   };
   return (
-    <div>
-      <div className="background"> </div>
+    <div className = "wrap-sign">
+      <div className="background-sign"> </div>
       <div className="conatinerParent">
         {redirect && <Redirect to={"/"} />}
         <div className="container-sign">
@@ -176,6 +176,7 @@ function Sign(props) {
                       setName(e.target.value);
                     }}
                     name="name"
+                    style={{ color: "#000", backgroundColor:'#fff' }}
                   />
                   <FormError
                     isHidden={name.length > 0 ? true : false}
@@ -198,6 +199,7 @@ function Sign(props) {
                     }}
                     phone="phone"
                     onBlur={handlePhoneValidation}
+                    style={{ color: "#000", backgroundColor:'#fff' }}
                   />
                   <FormError
                     isHidden={isPhoneValid}
@@ -220,6 +222,7 @@ function Sign(props) {
                       setAddress(e.target.value);
                     }}
                     name="address"
+                    style={{ color: "#000", backgroundColor:'#fff' }}
                   />
                   <FormError
                     isHidden={address.length > 0 ? true : false}
@@ -242,6 +245,7 @@ function Sign(props) {
                       setShipAddress(e.target.value);
                     }}
                     name="shipAddress"
+                    style={{ color: "#000", backgroundColor:'#fff' }}
                   />
                   <FormError
                     isHidden={shipAddress.length > 0 ? true : false}
@@ -266,6 +270,7 @@ function Sign(props) {
                     }}
                     name="email"
                     onBlur={handleEmailValidation}
+                    style={{ color: "#000", backgroundColor:'#fff' }}
                   />
                   <FormError
                     isHidden={isEmailValid}
@@ -282,11 +287,11 @@ function Sign(props) {
                     Mật khẩu
                   </InputLabel>
                   <Input
-                    onChange={onchange}
                     id="adornment-password"
                     type={values.showPassword ? "text" : "password"}
                     value={values.password}
                     onChange={handleChange("password")}
+                    style={{ color: "#000", backgroundColor:'#fff' }}
                     className="width400"
                     name="password"
                     endAdornment={
@@ -316,7 +321,7 @@ function Sign(props) {
                   variant="contained"
                   color="secondary"
                   className="width400"
-                  style={{ backgroundColor: "#F75F00" }}
+                  style={{ backgroundColor: "#F75F00" , marginTop:'10px'}}
                   onClick={() => {
                     props.sign({
                       name,
